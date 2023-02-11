@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+     
+      .sidebar {
+        height: 100%;
+        width: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #f1f1f1;
+        padding: 10px;
+      }
+
+      .main {
+        margin-left: 200px;
+        padding: 10px;
+      }
+
+      .sidebar a {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .selected {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Left sidebar with the section links -->
+    <div class="sidebar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Main content area -->
+    <div class="main">
+      <!-- Home section content -->
+      <div id="home" class="selected">
+        <h1>Home</h1>
+        <p>Welcome to the home section.</p>
+      </div>
+
+      <!-- About section content -->
+      <div id="about">
+        <h1>About</h1>
+        <p>Learn more about us.</p>
+      </div>
+
+      <!-- Contact section content -->
+      <div id="contact">
+        <h1>Contact</h1>
+        <p>Get in touch with us.</p>
+      </div>
+    </div>
+
+  </body>
+</html>
